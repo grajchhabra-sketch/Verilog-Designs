@@ -12,6 +12,7 @@ Finite State Machine based traffic signal controller.
 
 Tools used:
 - Verilog HDL
+- Xilinx Vivado
 - EDA Playground
 - Icarus Verilog
 - EPWave
