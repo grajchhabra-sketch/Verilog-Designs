@@ -30,7 +30,7 @@ endmodule
 
 //// UART TRANSMITTER
 
-module uart_tx(input clk, input reset, input start, input baud_tick,                input [7:0] data_in , output reg tx, output reg busy);
+module uart_tx(input clk, input reset, input start, input baud_tick, input [7:0] data_in , output reg tx, output reg busy);
   
   reg [1:0]state, next_state;
   reg [7:0]data_reg;
