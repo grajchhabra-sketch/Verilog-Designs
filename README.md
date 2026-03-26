@@ -16,7 +16,7 @@ Finite State Machine based vending machine that accepts coin and dispenses produ
 ### 4. UART Transmitter
 UART transmitter with baud generator.
 
-#### 5. RISC-V Single Cycle
+### 5. RISC-V Single Cycle
 Risc-V Single cycle processor without Pipeline.
 
 Tools used:
