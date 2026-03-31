@@ -19,10 +19,14 @@ UART transmitter with baud generator.
 ### 5. RISC-V Single Cycle
 Risc-V Single cycle processor without Pipeline.
 
+### 6. Synchronous FIFO
+Synchronous FIFO with single clock domain, ensuring reliable data buffering using full and empty flags.
+
 Tools used:
 - Cadence Xcelium
 - Xilinx Vivado
 - Verilog HDL
+- SystemVerilog
 - EDA Playground
 - Icarus Verilog
 - EPWave
