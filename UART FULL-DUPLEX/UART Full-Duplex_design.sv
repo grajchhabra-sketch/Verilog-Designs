@@ -186,9 +186,7 @@ module uart_rx(uart_if.uart_rx_mp intf);
   logic rx_sync1, rx_sync2;
   logic rx_d;
 
-  // ========================
-  // 2-FF SYNCHRONIZER
-  // ========================
+
   always_ff @(posedge intf.clk or posedge intf.reset) begin
     if (intf.reset) begin
       rx_sync1 <= 1;
@@ -201,9 +199,7 @@ module uart_rx(uart_if.uart_rx_mp intf);
     end
   end
 
-  // ========================
-  // STATE REGISTER
-  // ========================
+ 
   always_ff @(posedge intf.clk or posedge intf.reset) begin
     if (intf.reset)
       state <= IDLE;
@@ -211,9 +207,6 @@ module uart_rx(uart_if.uart_rx_mp intf);
       state <= next_state;
   end
 
-  // ========================
-  // NEXT STATE LOGIC
-  // ========================
   always_comb begin
     next_state = state;
 
@@ -242,9 +235,7 @@ module uart_rx(uart_if.uart_rx_mp intf);
     endcase
   end
 
-  // ========================
-  // DATA PATH
-  // ========================
+
   always_ff @(posedge intf.clk or posedge intf.reset) begin
     if (intf.reset) begin
       shift_reg     <= 0;
