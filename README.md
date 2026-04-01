@@ -22,6 +22,9 @@ Risc-V Single cycle processor without Pipeline.
 ### 6. Synchronous FIFO
 Synchronous FIFO with single clock domain, ensuring reliable data buffering using full and empty flags.
 
+### 7. UART Full-Duplex
+UART full-duplex communication enables simultaneous transmission and reception of data using separate TX and RX lines.
+
 Tools used:
 - Cadence Xcelium
 - Xilinx Vivado
