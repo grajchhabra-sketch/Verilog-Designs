@@ -25,6 +25,9 @@ Synchronous FIFO with single clock domain, ensuring reliable data buffering usin
 ### 7. UART Full-Duplex
 UART full-duplex communication enables simultaneous transmission and reception of data using separate TX and RX lines.
 
+### 8. SPI Full-Duplex
+SPI full-duplex enables simultaneous data transmission and reception between master and slave using separate MOSI and MISO lines.
+
 Tools used:
 - Cadence Xcelium
 - Xilinx Vivado
