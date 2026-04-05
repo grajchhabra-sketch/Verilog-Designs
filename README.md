@@ -1,95 +1,101 @@
-# 🔧 Verilog & SystemVerilog Digital Design Projects
+# 🚀 Verilog & SystemVerilog Digital Design Projects  
 
-This repository contains a collection of **RTL design and verification projects** implemented using **Verilog and SystemVerilog**.
-
-These projects cover fundamental to intermediate concepts in **Digital Design, FPGA, and VLSI systems**.
-
----
-
-## 🚀 Projects
-
-### 🔹 1. 4-bit ALU
-- Arithmetic Logic Unit supporting multiple operations
-- Designed using combinational logic
+<p align="center">
+  <img src="https://img.shields.io/badge/RTL-Design-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SystemVerilog-Verification-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/VLSI-FPGA%20%7C%20ASIC-black?style=for-the-badge"/>
+</p>
 
 ---
 
-### 🔹 2. Traffic Light Controller (FSM)
-- Finite State Machine based controller
-- Simulates real-world traffic signal behavior
+## 🧠 About This Repository  
+
+This repository contains a collection of **RTL design and verification projects** built using **Verilog & SystemVerilog**.  
+
+It focuses on **core VLSI concepts**, including:
+- RTL Design  
+- Digital Systems  
+- Communication Protocols  
+- Processor Design  
 
 ---
 
-### 🔹 3. Vending Machine Controller (FSM)
-- Accepts coins and dispenses product
-- Implemented using FSM design principles
+## 📌 Projects  
+
+### 🔹 1. 4-bit ALU  
+⚡ Arithmetic Logic Unit supporting multiple operations  
 
 ---
 
-### 🔹 4. UART Transmitter
-- Serial communication module
-- Includes baud rate generator
+### 🔹 2. Traffic Light Controller (FSM)  
+🚦 Real-world traffic control using Finite State Machine  
 
 ---
 
-### 🔹 5. RISC-V Single Cycle Processor
-- Basic RISC-V architecture
-- No pipelining (single-cycle execution)
+### 🔹 3. Vending Machine Controller (FSM)  
+🪙 Coin-based product dispensing system  
 
 ---
 
-### 🔹 6. Synchronous FIFO
-- Single clock FIFO design
-- Implements:
-  - Full & Empty flags
-  - Reliable data buffering
+### 🔹 4. UART Transmitter  
+📡 Serial communication with baud rate generator  
 
 ---
 
-### 🔹 7. UART Full-Duplex
-- Simultaneous transmission and reception
-- Separate TX and RX paths
+### 🔹 5. RISC-V Single Cycle Processor  
+🧩 Basic processor implementation (no pipeline)  
 
 ---
 
-### 🔹 8. SPI Full-Duplex
-- Master-Slave communication protocol
-- Uses MOSI, MISO, SCLK, SS signals
+### 🔹 6. Synchronous FIFO  
+📦 Data buffering with:
+- Full & Empty flags  
+- Single clock domain  
 
 ---
 
-## 🧠 Design Concepts Covered
-
-- RTL Design
-- Finite State Machines (FSM)
-- FIFO Design
-- Serial Communication Protocols (UART, SPI)
-- Basic Processor Design (RISC-V)
-- Digital System Design
+### 🔹 7. UART Full-Duplex  
+🔄 Simultaneous TX & RX communication  
 
 ---
 
-## 💻 Tech Stack
-
-### 🔹 Languages
-- Verilog (RTL Design)
-- SystemVerilog (Testbench, Verification)
-
-### 🔹 Tools
-- Xilinx Vivado (FPGA Design)
-- Cadence Xcelium (Simulation)
-- Icarus Verilog
-- EDA Playground
-- GTKWave
+### 🔹 8. SPI Full-Duplex  
+🔗 Master-Slave communication using MOSI/MISO  
 
 ---
 
-## 🧪 Verification
+## 🧠 Concepts Covered  
 
-- Testbenches written in **SystemVerilog**
-- Functional verification performed using simulation tools
-- Waveforms analyzed using GTKWave
+✔ RTL Design  
+✔ FSM Design  
+✔ FIFO Design  
+✔ UART / SPI Protocols  
+✔ Processor Design  
+✔ Digital System Design  
 
 ---
 
-## 📂 Repository Structure (Recommended)
+## 💻 Tech Stack  
+
+### 🧾 Languages  
+![Verilog](https://img.shields.io/badge/Verilog-RTL-blue?style=for-the-badge)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-Verification-purple?style=for-the-badge)
+
+---
+
+### 🛠 Tools  
+![Vivado](https://img.shields.io/badge/Xilinx-Vivado-blue?style=for-the-badge)
+![Cadence](https://img.shields.io/badge/Cadence-Xcelium-red?style=for-the-badge)
+![GTKWave](https://img.shields.io/badge/GTKWave-Waveform-green?style=for-the-badge)
+
+---
+
+## 🧪 Verification  
+
+🔍 All modules are verified using **Verilog and SystemVerilog Testbenches**  
+
+- Functional verification  
+- Waveform analysis  
+- Simulation tools (Xcelium / Xilinx Vivado / Icarus Verilog)  
+
+
