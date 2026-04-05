@@ -1,38 +1,95 @@
-# Verilog Designs
+# 🔧 Verilog & SystemVerilog Digital Design Projects
 
-This repository contains Verilog HDL mini projects.
+This repository contains a collection of **RTL design and verification projects** implemented using **Verilog and SystemVerilog**.
 
-## Projects
+These projects cover fundamental to intermediate concepts in **Digital Design, FPGA, and VLSI systems**.
 
-### 1. 4-bit ALU
-Arithmetic Logic Unit supporting multiple operations.
+---
 
-### 2. Traffic Light Controller (FSM)
-Finite State Machine based traffic signal controller.
+## 🚀 Projects
 
-### 3. Vending Machine Controller (FSM)
-Finite State Machine based vending machine that accepts coin and dispenses product.
+### 🔹 1. 4-bit ALU
+- Arithmetic Logic Unit supporting multiple operations
+- Designed using combinational logic
 
-### 4. UART Transmitter
-UART transmitter with baud generator.
+---
 
-### 5. RISC-V Single Cycle
-Risc-V Single cycle processor without Pipeline.
+### 🔹 2. Traffic Light Controller (FSM)
+- Finite State Machine based controller
+- Simulates real-world traffic signal behavior
 
-### 6. Synchronous FIFO
-Synchronous FIFO with single clock domain, ensuring reliable data buffering using full and empty flags.
+---
 
-### 7. UART Full-Duplex
-UART full-duplex communication enables simultaneous transmission and reception of data using separate TX and RX lines.
+### 🔹 3. Vending Machine Controller (FSM)
+- Accepts coins and dispenses product
+- Implemented using FSM design principles
 
-### 8. SPI Full-Duplex
-SPI full-duplex enables simultaneous data transmission and reception between master and slave using separate MOSI and MISO lines.
+---
 
-Tools used:
-- Cadence Xcelium
-- Xilinx Vivado
-- Verilog HDL
-- SystemVerilog
-- EDA Playground
+### 🔹 4. UART Transmitter
+- Serial communication module
+- Includes baud rate generator
+
+---
+
+### 🔹 5. RISC-V Single Cycle Processor
+- Basic RISC-V architecture
+- No pipelining (single-cycle execution)
+
+---
+
+### 🔹 6. Synchronous FIFO
+- Single clock FIFO design
+- Implements:
+  - Full & Empty flags
+  - Reliable data buffering
+
+---
+
+### 🔹 7. UART Full-Duplex
+- Simultaneous transmission and reception
+- Separate TX and RX paths
+
+---
+
+### 🔹 8. SPI Full-Duplex
+- Master-Slave communication protocol
+- Uses MOSI, MISO, SCLK, SS signals
+
+---
+
+## 🧠 Design Concepts Covered
+
+- RTL Design
+- Finite State Machines (FSM)
+- FIFO Design
+- Serial Communication Protocols (UART, SPI)
+- Basic Processor Design (RISC-V)
+- Digital System Design
+
+---
+
+## 💻 Tech Stack
+
+### 🔹 Languages
+- Verilog (RTL Design)
+- SystemVerilog (Testbench, Verification)
+
+### 🔹 Tools
+- Xilinx Vivado (FPGA Design)
+- Cadence Xcelium (Simulation)
 - Icarus Verilog
-- EPWave
+- EDA Playground
+- GTKWave
+
+---
+
+## 🧪 Verification
+
+- Testbenches written in **SystemVerilog**
+- Functional verification performed using simulation tools
+- Waveforms analyzed using GTKWave
+
+---
+
+## 📂 Repository Structure (Recommended)
