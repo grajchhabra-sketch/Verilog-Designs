@@ -390,7 +390,7 @@ wire zero;
 
 
 
-// ================= PC =================
+
 
 pc PC(
 .clk(clk),
@@ -400,12 +400,12 @@ pc PC(
 );
 
 
-// PC + 4
+
 
 assign pc_next = pc + 4;
 
 
-// ================= Instruction Memory =================
+
 
 instruction_memory IMEM(
 .adder(pc),
@@ -413,7 +413,6 @@ instruction_memory IMEM(
 );
 
 
-// ================= Control Unit =================
 
 control_unit CU(
 
@@ -432,7 +431,7 @@ control_unit CU(
 );
 
 
-// ================= Register File =================
+
 
 register_file RF(
 
@@ -451,7 +450,7 @@ register_file RF(
 );
 
 
-// ================= Immediate Generator =================
+
 
 imm_gen IMM(
 
@@ -462,7 +461,7 @@ imm_gen IMM(
 );
 
 
-// ================= ALU Control =================
+
 
 alu_control ALUCTRL(
 
@@ -475,14 +474,14 @@ alu_control ALUCTRL(
 );
 
 
-// ================= ALU input mux =================
+
 
 wire [31:0] alu_b;
 
 assign alu_b = ALUSrc ? imm : rd2;
 
 
-// ================= ALU =================
+
 
 alu ALU(
 
@@ -496,7 +495,7 @@ alu ALU(
 );
 
 
-// ================= Data Memory =================
+
 
 data_memory DM(
 
